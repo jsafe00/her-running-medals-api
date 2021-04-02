@@ -1,4 +1,4 @@
-Her-Running-Medals-API is a collection of Laravel essentials implementation.
+Her-Running-Medals is a collection of Laravel 8 CRUD implementation essentials.
 
 ## Laravel Repository Pattern with
 
