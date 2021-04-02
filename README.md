@@ -12,12 +12,12 @@ Her-Running-Medals is a collection of Laravel 8 CRUD implementation essentials.
 TODO:
 
 - [ ] HTTP Tests
+- [ ] Events + Listener
+- [ ] Observer
 
 Nice To Have:
 
 - Service Container 
-- Events + Listener
-- Observer
 
 ## Install with Composer
 
