@@ -1,3 +1,5 @@
+<a href="https://www.buymeacoffee.com/jsafe00" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+
 Her-Running-Medals is a collection of Laravel 8 CRUD implementation essentials.
 
 ## Laravel 8 Repository Pattern with
