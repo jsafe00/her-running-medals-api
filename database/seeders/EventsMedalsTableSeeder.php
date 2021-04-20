@@ -25,7 +25,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventAWUM2021->id,
             'category' => '50KM',
-            'image' => 'awum2021.jpg'
+            'image' => 'img/awum2021.jpg'
         ]);
 
 
@@ -38,7 +38,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventCCM2020->id,
             'category' => '42KM',
-            'image' => 'cebumarathon2020.jpg'
+            'image' => 'img/cebumarathon2020.jpg'
         ]);
 
 
@@ -51,7 +51,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventMM2019->id,
             'category' => '42KM',
-            'image' => 'masskara2019.jpg'
+            'image' => 'img/masskara2019.jpg'
         ]);
 
         $eventDC2DC2019 = Event::create([
@@ -63,7 +63,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventDC2DC2019->id,
             'category' => '60KM',
-            'image' => 'dc2dc.jpg'
+            'image' => 'img/dc2dc.jpg'
         ]);
 
         $eventBIM2019 = Event::create([
@@ -75,7 +75,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventBIM2019->id,
             'category' => '42KM',
-            'image' => 'boholmarathon2019.jpg'
+            'image' => 'img/boholmarathon2019.jpg'
         ]);
 
         $eventCN50 = Event::create([
@@ -87,7 +87,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventCN50->id,
             'category' => '50KM',
-            'image' => 'cn50.jpg'
+            'image' => 'img/cn50.jpg'
         ]);
 
         $eventMegawear2019 = Event::create([
@@ -99,7 +99,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventMegawear2019->id,
             'category' => '21KM',
-            'image' => 'megawear2019.jpg'
+            'image' => 'img/megawear2019.jpg'
         ]);
 
         $eventHS2019 = Event::create([
@@ -111,7 +111,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventHS2019->id,
             'category' => '21KM',
-            'image' => 'hunatsugbu2019.jpg'
+            'image' => 'img/hunatsugbu2019.jpg'
         ]);
 
         $eventIPIRun = Event::create([
@@ -123,7 +123,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventIPIRun->id,
             'category' => '21KM',
-            'image' => 'ipirun.jpg'
+            'image' => 'img/ipirun.jpg'
         ]);
 
         $eventSiquijor2019 = Event::create([
@@ -135,7 +135,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventSiquijor2019->id,
             'category' => '42KM',
-            'image' => 'siquijormarathon.jpg'
+            'image' => 'img/siquijormarathon.jpg'
         ]);
 
         $eventAWUM2019 = Event::create([
@@ -147,7 +147,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventAWUM2019->id,
             'category' => '50KM',
-            'image' => 'awum2019.jpg'
+            'image' => 'img/awum2019.jpg'
         ]);
 
         $eventSM2SM2019 = Event::create([
@@ -159,7 +159,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventSM2SM2019->id,
             'category' => '21KM',
-            'image' => 'sm2sm2019.jpg'
+            'image' => 'img/sm2sm2019.jpg'
         ]);
 
         $event711Run2019 = Event::create([
@@ -171,7 +171,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $event711Run2019->id,
             'category' => '42KM',
-            'image' => '711run.jpg'
+            'image' => 'img/711run.jpg'
         ]);
 
         $eventCCM2019 = Event::create([
@@ -183,7 +183,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventCCM2019->id,
             'category' => '21KM',
-            'image' => 'cebumarathon2019.jpg'
+            'image' => 'img/cebumarathon2019.jpg'
         ]);
 
         $eventMagmaTrailRun2018 = Event::create([
@@ -195,7 +195,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventMagmaTrailRun2018->id,
             'category' => '30KM',
-            'image' => 'magmatrailrun2018.jpg'
+            'image' => 'img/magmatrailrun2018.jpg'
         ]);
 
         $eventMM2018 = Event::create([
@@ -207,7 +207,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventMM2018->id,
             'category' => '21KM',
-            'image' => 'masskara2018.jpg'
+            'image' => 'img/masskara2018.jpg'
         ]);
 
         $eventBIM2018 = Event::create([
@@ -219,7 +219,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventBIM2018->id,
             'category' => '42KM',
-            'image' => 'boholmarathon2018.jpg'
+            'image' => 'img/boholmarathon2018.jpg'
         ]);
 
         $eventMegawear2018 = Event::create([
@@ -231,7 +231,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventMegawear2018->id,
             'category' => '21KM',
-            'image' => 'megawear2018.jpg'
+            'image' => 'img/megawear2018.jpg'
         ]);
 
         $eventHunatSugbu2018 = Event::create([
@@ -243,7 +243,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventHunatSugbu2018->id,
             'category' => '21KM',
-            'image' => 'hunatsugbu2018.jpg'
+            'image' => 'img/hunatsugbu2018.jpg'
         ]);
 
         $eventRunrio2018 = Event::create([
@@ -255,7 +255,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventRunrio2018->id,
             'category' => '32KM',
-            'image' => 'runrio.jpg'
+            'image' => 'img/runrio.jpg'
         ]);
 
         $eventOYM2018 = Event::create([
@@ -267,7 +267,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventOYM2018->id,
             'category' => '25KM',
-            'image' => 'oymrun.jpg'
+            'image' => 'img/oymrun.jpg'
         ]);
 
         $eventAlicia2018 = Event::create([
@@ -279,7 +279,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventAlicia2018->id,
             'category' => '21KM',
-            'image' => 'alicia.jpg'
+            'image' => 'img/alicia.jpg'
         ]);
 
         $eventCCM2018 = Event::create([
@@ -291,7 +291,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventCCM2018->id,
             'category' => '21KM',
-            'image' => 'cebumarathon2018.jpg'
+            'image' => 'img/cebumarathon2018.jpg'
         ]);
 
         $eventHopeRun2017 = Event::create([
@@ -303,7 +303,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventHopeRun2017->id,
             'category' => '21KM',
-            'image' => 'hoperun2017.jpg'
+            'image' => 'img/hoperun2017.jpg'
         ]);
 
         $eventUPRun2017 = Event::create([
@@ -315,7 +315,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventUPRun2017->id,
             'category' => '21KM',
-            'image' => 'uprun2017.jpg'
+            'image' => 'img/uprun2017.jpg'
         ]);
 
         $eventBIM2017 = Event::create([
@@ -327,7 +327,7 @@ class EventsMedalsTableSeeder extends Seeder
         Medal::create([
             'event_id' => $eventBIM2017->id,
             'category' => '21KM',
-            'image' => 'boholmarathon2017.jpg'
+            'image' => 'img/boholmarathon2017.jpg'
         ]);
     }
 }
