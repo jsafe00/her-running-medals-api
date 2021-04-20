@@ -24,7 +24,7 @@ class Event extends Model
     ];
 
     /**
-     * Get all of the author's comments.
+     * Get all of the event's comments.
      */
     public function comments()
     {
