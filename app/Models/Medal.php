@@ -29,7 +29,7 @@ class Medal extends Model
     }
 
     /**
-     * Get all of the book's comments.
+     * Get all of the medal's comments.
      */
     public function comments()
     {
