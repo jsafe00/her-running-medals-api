@@ -37,7 +37,7 @@ class EventsApiTest extends TestCase
         Event::factory()
             ->create(
                 [
-                    'eventName' => 'LSB 50KM Ultramarathon',
+                    'eventName' => 'LSB 50KM Ultramarathon 2021',
                     'location' => 'Davao City, Davao',
                     'date' => '2021-04-04',
                 ],
@@ -50,7 +50,7 @@ class EventsApiTest extends TestCase
             ->assertJsonFragment([
                 'data' => [
                     [
-                        'eventName' => 'LSB 50KM Ultramarathon',
+                        'eventName' => 'LSB 50KM Ultramarathon 2021',
                         'location' => 'Davao City, Davao',
                         'date' => '2021-04-04',
                     ],
@@ -119,7 +119,7 @@ class EventsApiTest extends TestCase
         $event = Event::factory()->create([
             'eventName' => 'Cebu Marathon 2021',
             'location' => 'Cebu City, Cebu',
-            'date' => '1954-04-29',
+            'date' => '2021-01-29',
         ]);
 
         $this->get(route('events.show', $event))
@@ -128,7 +128,7 @@ class EventsApiTest extends TestCase
                 'data' => [
                     'eventName' => 'Cebu Marathon 2021',
                     'location' => 'Cebu City, Cebu',
-                    'date' => '1954-04-29',
+                    'date' => '2021-01-29',
                 ]
             ]);
     }
@@ -151,7 +151,7 @@ class EventsApiTest extends TestCase
         $this->putJson(route('events.update', $event), [
             'eventName' => null,
             'location' => 'Panglao, Bohol',
-            'date' => '08-08-2020',
+            'date' => '2020-08-08',
         ])
             ->assertJsonValidationErrors(['eventName']);
     }
@@ -168,14 +168,14 @@ class EventsApiTest extends TestCase
         ]);
 
         $this->putJson(route('events.update', $event), [
-            'eventName' => 'Loboc Eco Run',
+            'eventName' => 'Loboc Eco Run 2020',
             'location' => 'Loboc, Bohol',
             'date' => '2020-06-30',
         ])
             ->assertStatus(200)
             ->assertJson([
                 'data' => [
-                    'eventName' => 'Loboc Eco Run',
+                    'eventName' => 'Loboc Eco Run 2020',
                     'location' => 'Loboc, Bohol',
                     'date' => '2020-06-30',
                 ]
@@ -201,7 +201,7 @@ class EventsApiTest extends TestCase
     public function testDestroyEndpoint_withCorrectRoute_expectSuccessMessage()
     {
         $event = Event::factory()->create([
-            'eventName' => '711 Run',
+            'eventName' => '711 Run 2020',
             'location' => 'Cebu City, Cebu',
             'date' => '2020-02-02'
         ]);
