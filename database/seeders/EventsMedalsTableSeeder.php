@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Comment;
 use App\Models\Event;
 use App\Models\Medal;
 use Illuminate\Database\Seeder;
@@ -26,6 +27,12 @@ class EventsMedalsTableSeeder extends Seeder
             'event_id' => $eventAWUM2021->id,
             'category' => '50KM',
             'image' => 'img/awum2021.jpg'
+        ]);
+
+        Comment::create([
+            'commentable_type' => 'App\Models\Event',
+            'commentable_id' => $eventAWUM2021->id,
+            'body' => 'Will definitely join next year!'
         ]);
 
 
@@ -60,10 +67,16 @@ class EventsMedalsTableSeeder extends Seeder
             'date' =>'2019-09-08'
         ]);
 
-        Medal::create([
+        $eventDC2DC2019 = Medal::create([
             'event_id' => $eventDC2DC2019->id,
             'category' => '60KM',
             'image' => 'img/dc2dc.jpg'
+        ]);
+
+        Comment::create([
+            'commentable_type' => 'App\Models\Medal',
+            'commentable_id' => $eventDC2DC2019->id,
+            'body' => 'Cool Design!'
         ]);
 
         $eventBIM2019 = Event::create([
@@ -88,6 +101,12 @@ class EventsMedalsTableSeeder extends Seeder
             'event_id' => $eventCN50->id,
             'category' => '50KM',
             'image' => 'img/cn50.jpg'
+        ]);
+
+        Comment::create([
+            'commentable_type' => 'App\Models\Event',
+            'commentable_id' => $eventCN50->id,
+            'body' => 'Food!Food!Lots of Food!'
         ]);
 
         $eventMegawear2019 = Event::create([
@@ -132,10 +151,16 @@ class EventsMedalsTableSeeder extends Seeder
             'date' =>'2019-03-24'
         ]);
 
-        Medal::create([
+        $eventSiquijor2019 = Medal::create([
             'event_id' => $eventSiquijor2019->id,
             'category' => '42KM',
             'image' => 'img/siquijormarathon.jpg'
+        ]);
+
+        Comment::create([
+            'commentable_type' => 'App\Models\Medal',
+            'commentable_id' => $eventSiquijor2019->id,
+            'body' => 'Wow!'
         ]);
 
         $eventAWUM2019 = Event::create([
