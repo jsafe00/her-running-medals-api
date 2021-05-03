@@ -48,7 +48,7 @@ trait HasCommonColumns
         $columns = $this->getDirty();
 
         $columns["deleted_at"] = $this->fromDateTime($time);
-        $this->deletef_at = $time;
+        $this->deleted_at = $time;
 
         $columns["updated_at"] = $this->fromDateTime($time);
         $this->updated_at = $time;

@@ -83,7 +83,6 @@ class CommentsRepositoryTest extends TestCase
 
         $this->assertEquals($updateData['body'], $updatedComment->body);
         $this->assertInstanceOf(Comment::class, $comment);
-
     }
 
     /**
@@ -92,8 +91,7 @@ class CommentsRepositoryTest extends TestCase
     public function testDelete_givenCorrectData_expectCommentDeleted()
     {
         $comment = $this->commentsRepository->delete(Comment::factory()->create());
-
         $this->assertInstanceOf(Comment::class, $comment);
-        $this->assertDeleted($comment);
+        $this->assertSoftDeleted($comment);
     }
 }
