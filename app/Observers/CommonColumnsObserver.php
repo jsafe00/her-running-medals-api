@@ -18,6 +18,7 @@ class CommonColumnsObserver
     public function creating(Model $model)
     {
         $model->created_at = Carbon::now();
+        $model->lock_version = 0;
     }
 
     /**
