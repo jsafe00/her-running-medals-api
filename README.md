@@ -2,7 +2,7 @@
 
 Her-Running-Medals is a collection of Laravel 8 Repository Pattern CRUD implementation essentials.
 
-## Laravel 8 Repository Pattern with
+## Laravel 8 Repository Pattern using
 
 - [x] Form requests <br>
 - [x] Request validation <br>
@@ -21,7 +21,7 @@ TODO:
 Nice To Have:
 
 - Service Container 
-- FE (React soon)
+- FE (React|Vue soon)
 
 ## Install with Composer
 
