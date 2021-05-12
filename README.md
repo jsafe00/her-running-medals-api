@@ -10,13 +10,9 @@ Her-Running-Medals is a collection of Laravel 8 Repository Pattern CRUD implemen
 - [x] Eloquent Relationship <br>
 - [x] API Resources (Collections) <br>
 - [x] Observer <br>
+- [x] Events + Listener <br>
 - [x] Unit Tests <br>
 - [x] HTTP Tests (EventsApiTest)
-
-TODO:
-
-- [ ] HTTP Tests (MedalsApiTest)
-- [ ] Events + Listener
 
 Nice To Have:
 
