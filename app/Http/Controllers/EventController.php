@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Repositories\EventRepository;
 use App\Http\Requests\Events\CreateUpdateEventFormRequest;
 use App\Http\Resources\EventResource;
+use App\Events\EventCreated;
 use App\Models\Event;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 
@@ -42,6 +43,7 @@ class EventController extends Controller
     public function create(CreateUpdateEventFormRequest $request, Event $event): EventResource
     {
         $event = $this->eventRepository->create($event,$request->validated());
+        event(new EventCreated($event));
 
         return new EventResource($event);
     }
